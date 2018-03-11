@@ -33,6 +33,7 @@ Rails.application.configure do
   # The :test delivery method accumulates sent emails in the
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
+  config.action_mailer.default_url_options = { host: 'http://sample_app-c9-miagenovese.c9users.io//rails/mailers/user_mailer/password_reset' }
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
