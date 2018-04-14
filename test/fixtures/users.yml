@@ -2,7 +2,6 @@
 
 # The purpose of this custom fixture is so that our test can log in as a previously registered user (michael example),
 # using this data from our test database.
-
 michael:
   name: Michael Example
   email: michael@example.com
@@ -10,7 +9,7 @@ michael:
   admin: true
   activated: true
   activated_at: <%= Time.zone.now %>
-  
+
 snow:
   name: Jon Snow
   email: jon@castleblack.com
@@ -18,7 +17,7 @@ snow:
   admin: false
   activated: true
   activated_at: <%= Time.zone.now %>
-  
+
 inactive:
   name: Inactive User
   email: inactive@example.com

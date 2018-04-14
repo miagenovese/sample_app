@@ -33,6 +33,8 @@ group :test do
   gem 'minitest-reporters',       '1.1.14'
   gem 'guard',                    '2.14.1'
   gem 'guard-minitest',           '2.4.6'
+  # temporary fix to minitest 5.11.1 issue 
+  gem 'minitest', '~>5.10.3'
 end
 
 group :production do
